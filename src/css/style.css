@@ -11,6 +11,7 @@ header {
     width: 100vw;
     height: 100vh;
     background-image: url(/design/background.jpeg);
+
     background-repeat: no-repeat;
     background-size:auto;
 }
@@ -83,11 +84,6 @@ h2 {
     font-style: normal;
 }
 
-span {
-    background: -webkit-linear-gradient(#000, #fff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .arrow {
     text-align: center;
@@ -109,6 +105,62 @@ a img {
     width: 7%;
 }
 
-.reste {
+main {
+height: 100vw;
+}
+
+.second-nav {
+    position: sticky;
+    top: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 4%;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+section {
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 2%;
+
+}
+
+section img {
+    width: 80%;
+
+}
+
+h4 {
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+span {
+
+}
+
+section button {
+    border: none;
+    padding: 2%;
+    border-radius: .25rem;
+}
+
+section button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+footer {
     height: 200vh;
 }
