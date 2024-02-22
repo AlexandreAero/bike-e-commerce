@@ -105,9 +105,6 @@ a img {
     width: 7%;
 }
 
-main {
-height: 100vw;
-}
 
 .second-nav {
     position: sticky;
@@ -121,10 +118,9 @@ h3 {
 }
 
 article {
-    width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 section {
@@ -133,6 +129,16 @@ section {
     border: 2px solid black;
     border-radius: .5rem;
     padding: 2%;
+
+}
+
+.list-item section {
+    width: 20%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 2%;
+    margin: 2%;
 
 }
 
@@ -162,5 +168,5 @@ section button:hover {
 }
 
 footer {
-    height: 200vh;
+
 }
