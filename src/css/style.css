@@ -10,7 +10,7 @@
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(design/background.jpeg);
+    background-image: url("../design/background.jpeg");
 
     background-repeat: no-repeat;
     background-size:auto;
