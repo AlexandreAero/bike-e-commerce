@@ -16,6 +16,10 @@ header {
     background-size:auto;
 }
 
+.burger {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: left;
@@ -89,7 +93,7 @@ h2 {
     text-align: center;
     width: 100vw;
     position: absolute;
-    top: 85vh; left: 0;
+    top: 83vh; left: 0;
     animation: bounce 4s ease infinite;
    
 }
@@ -155,9 +159,6 @@ h4 {
     margin-bottom: 2%;
 }
 
-span {
-
-}
 
 section button {
     border: none;
@@ -192,3 +193,90 @@ footer article a:visited {
 footer article a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width:600px) {
+
+    header {
+        background-size:cover;
+        background-position:6%;
+    }
+
+    .burger  {
+        padding-top: 5%;
+        text-align: center;
+        display: block;
+        z-index: 10;
+    }
+
+
+    header p {
+        display: none;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    
+    .second-nav {
+        display:block;
+    }
+
+    .second-nav a {
+        display: block;
+        margin-right: 0;
+    }
+
+    h2 {
+        font-size: 28vw;
+        padding-top: 6%;
+    }
+    
+    a img {
+        width: 30%;
+        filter: invert(0.5);
+    }
+
+    .buttons {
+        width: 22vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        position: absolute;
+        top: 2vh;
+        right: 2vw;
+    }
+
+
+
+    .buttons button:first-child {
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+    
+    .buttons button:last-child {
+        border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+    section {
+        width: 80%;
+        margin-bottom: 4%;
+    
+    }
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list-item section {
+        width: 40%;
+    
+    
+    }
+
+    footer article img {
+        width: 15%;
+    }
+
+}
+    
