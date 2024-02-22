@@ -40,27 +40,33 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.buttons {
+.buttons a {
     width: 22vw;
     display: flex;
     justify-content: end;
+
 }
 
-.buttons button {
+.buttons a:hover {
+    text-decoration: none;
+}
+
+.buttons a button {
     border: none;
     padding: 4%;
 }
 
-.buttons button:hover {
+.buttons a button:hover {
     cursor: pointer;
     background-color: gray;
+
 }
 
-.buttons button:first-child {
+.buttons a button:first-child {
     border-radius: 0.25rem 0 0 0.25rem;
 }
 
-.buttons button:last-child {
+.buttons a button:last-child {
     border-radius: 0 0.25rem 0.25rem 0;
 }
 
@@ -237,7 +243,7 @@ footer article a:hover {
         filter: invert(0.5);
     }
 
-    .buttons {
+    .buttons a{
         width: 22vw;
         display: flex;
         flex-direction: column;
@@ -249,11 +255,11 @@ footer article a:hover {
 
 
 
-    .buttons button:first-child {
+    .buttons a button:first-child {
         border-radius: 0.25rem 0.25rem 0 0;
     }
     
-    .buttons button:last-child {
+    .buttons a button:last-child {
         border-radius: 0 0 0.25rem 0.25rem;
     }
 
