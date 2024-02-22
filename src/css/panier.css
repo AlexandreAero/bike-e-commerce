@@ -65,3 +65,85 @@ main .hidden{
     display: none;
     align-items: center;
 }
+main #Nom {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+main #Prénom {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+main #Numcarte {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+main #VVS {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+main #Adresse {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+main button{
+    transition: 1s;
+    margin: 1%;
+    text-align: center;
+}
+main #visa{
+    margin: 1%;
+    padding: 1%;
+}
+main #validation{
+    transition: 1s;
+    margin: 2% 0% 1% 0%;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 0.25rem;
+    border: none;
+}
+main button:hover{
+    transition: 1s;
+    cursor: pointer;
+}
+main #validation:hover{
+    transition: 1s;
+    border: 2px white;
+    cursor: pointer;
+    background-color: grey;
+}
+main #valider{
+    margin: 2%;
+    padding: 0.5%;
+    transition: 1s;
+    border-radius: 0.25rem;
+    border: none;
+}
+main #valider:hover{
+    cursor: pointer;
+    background-color: grey;
+    transition: 1s;
+}
+#coordonées{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 0% 2% 0%;
+    margin-left: 43%;
+}
+
+#visaimg{
+    padding: 1%;
+}
+#cbimage{
+    padding: 1%;
+}
+#mastercardimg{
+    padding: 1%;
+}
