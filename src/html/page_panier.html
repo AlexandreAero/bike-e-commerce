@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title></title>
+        <meta name="description" content="" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/panier.css" type="text/css">
+    </head>
+    <main>
+        <h1>Panier</h1>
+        <article>
+            <h2>Vos achats : </h2>
+            <h3>Rappel de votre commande : </h3>
+            <section id="section1" class="">
+                <img src="../images/VTT/4000990426145-focus-raven-8-1481247.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>velo</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <section id="section2" class="hidden">
+                <img src="../images/VTT/4000990426183-focus-raven-8-1481226.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>SAMEDI 27 OFF 21/22</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <section id="section3" class="hidden">
+                <img src="../images/VTT/96323-52-sj-evo-comp-alloy-04-1514923.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>velo</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <section id="section4" class="hidden">
+                <img src="../images/VTT/ams-one11-c68x-pro-29-liquidred-carbon-1434602.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>velo</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <section id="section5" class="hidden">
+                <img src="../images/VTT/elite-c68x-slt-liquidblue-blue-1394477.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>SAMEDI 27 OFF 21/22</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <section id="section6" class="hidden">
+                <img src="../images/VTT/stereo-one44-c62-pro-carbon-black-1431818.jpeg" alt="image">
+                <div class="product-info">
+                    <h4>velo</h4>
+                    <span>83,00 €</span>
+                </div>
+            </section>
+            <h3>Total de la commande : </h3>
+            <h3>Moyens de payement : </h3>
+            <form action="traitement.php" method="post" enctype="multipart/form-data">
+                <article id="coordonées">
+                    <input type="text" name="Nom" id="Nom" maxlength="200" required placeholder="Votre Nom">
+                    <br>
+                    <input type="text" name="Prénom" id="Prénom" maxlength="200" required placeholder="Votre Prénom">
+                    <br>
+                    <input type="text" name="Numcarte" id="Numcarte" maxlength="200" required placeholder="Numéro de carte">
+                    <br>
+                    <input type="text" name="VVS" id="VVS" maxlength="3" required placeholder="VVS">
+                    <br>
+                    <input type="text" name="Adresse" id="Adresse" maxlength="200" required placeholder="Adresse de Livraison">
+                </article>
+                <section id="bouton">
+                    <input type="radio" name="paiement" id="visa" value="1" required>
+                    <img src="../images/Visa.png" id="visaimg" alt="logo-visa" height="50" width="50">
+                    <input type="radio" name="paiement" id="CB" value="2" required>
+                    <img src="../images/logo-cb.jpg" id="cbimage" alt="logo-cb" height="50" width="50">
+                    <input type="radio" name="paiement" id="mastercard" value="3" required>
+                    <img src="../images/mastercard.png" id="mastercardimg" alt="logo-mastercard" height="50" width="50">
+                </section>
+                <input type="submit" id="valider" value="Valider mes informations">
+            </form>
+        </article>
+        <button onclick="alert()" id="validation">Valider votre commande </button>
+    </main>
+    <footer>
+        <article>
+            <a href="">About Us</a>
+            <a href="">Help</a>
+            <a href="">Contact</a>
+            <a href="../index.html">Home</a>
+        </article>
+        <article>
+            <img src="../images/facebook-fill-svgrepo-com.svg" alt="social-media">
+            <img src="../images/instagram-fill-svgrepo-com.svg" alt="social-media">
+            <img src="../images/tiktok-fill-svgrepo-com.svg" alt="social-media">
+            <img src="../images/twitter-fill-svgrepo-com.svg" alt="social-media">
+            <img src="../images/youtube-fill-svgrepo-com.svg" alt="social-media">
+        </article>
+        <article>
+            <i>© 2024 Copyright</i>
+        </article>
+        
+    </footer>
+    
+</html>
