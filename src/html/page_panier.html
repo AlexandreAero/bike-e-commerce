@@ -53,4 +53,31 @@
                     <span>83,00 €</span>
                 </div>
             </section>
+            <h3>Total de la commande : </h3>
+            <h3>Moyens de payement : </h3>
+            <form action="traitement.php" method="post" enctype="multipart/form-data">
+                <article id="coordonées">
+                    <input type="text" name="Nom" id="Nom" maxlength="200" required placeholder="Votre Nom">
+                    <br>
+                    <input type="text" name="Prénom" id="Prénom" maxlength="200" required placeholder="Votre Prénom">
+                    <br>
+                    <input type="text" name="Numcarte" id="Numcarte" maxlength="200" required placeholder="Numéro de carte">
+                    <br>
+                    <input type="text" name="VVS" id="VVS" maxlength="3" required placeholder="VVS">
+                    <br>
+                    <input type="text" name="Adresse" id="Adresse" maxlength="200" required placeholder="Adresse de Livraison">
+                </article>
+                <section id="bouton">
+                    <input type="radio" name="paiement" id="visa" value="1" required>
+                    <img src="../images/Visa.png" id="visaimg" alt="logo-visa" height="50" width="50">
+                    <input type="radio" name="paiement" id="CB" value="2" required>
+                    <img src="../images/logo-cb.jpg" id="cbimage" alt="logo-cb" height="50" width="50">
+                    <input type="radio" name="paiement" id="mastercard" value="3" required>
+                    <img src="../images/mastercard.png" id="mastercardimg" alt="logo-mastercard" height="50" width="50">
+                </section>
+                <input type="submit" id="valider" value="Valider mes informations">
+            </form>
+        </article>
+        <button onclick="alert()" id="validation">Valider votre commande </button>
+    </main>
 </html>
