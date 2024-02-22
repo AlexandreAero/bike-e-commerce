@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Rajdhani", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/design/background.jpeg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+nav a {
+    margin-right: 22vw;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    width: 22vw;
+    display: flex;
+    justify-content: end;
+}
+
+.buttons button {
+    border: none;
+    padding: 4%;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.buttons button:first-child {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.buttons button:last-child {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+p {
+    width: 70%;
+    font-size: 2.2vw;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    text-align-last: right;
+    padding-left: 2%;
+}
+
+p:last-of-type {
+    padding-left: 27%;
+}
+
+h2 {
+    font-size: 11vw;
+    padding: 2%;
+    margin-bottom: 3%;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+span {
+    background: -webkit-linear-gradient(#000, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.arrow {
+    text-align: center;
+    width: 100vw;
+    position: absolute;
+    top: 85vh; left: 0;
+    animation: bounce 4s ease infinite;
+   
+}
+
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-30px);}
+      60% {transform: translateY(-15px);}
+  }
+
+
+a img {
+    width: 7%;
+}
+
+.reste {
+    height: 200vh;
+}
