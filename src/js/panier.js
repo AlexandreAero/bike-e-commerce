@@ -11,7 +11,7 @@ const init = () => {
 
 const bikeView = (data) => {
     return `
-        <section id="section3" class="hidden">
+        <section id="section3">
             <img src="../images/VTT/96323-52-sj-evo-comp-alloy-04-1514923.jpeg" alt="image">
             <div class="product-info">
                 <h4>${data.name}</h4>
