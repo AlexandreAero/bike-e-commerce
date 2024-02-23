@@ -1,4 +1,5 @@
 # bike-e-commerce
+E-Commerce website for selling bikes.
 
 ## Roles Distribution
 - Designer et Intégrateur Frontend : H. Sami, T. Cullier.
