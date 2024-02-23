@@ -59,7 +59,6 @@ nav a:hover {
 .buttons a button:hover {
     cursor: pointer;
     background-color: gray;
-
 }
 
 .buttons a button:first-child {
@@ -94,34 +93,29 @@ h2 {
     font-style: normal;
 }
 
-
 .arrow {
     text-align: center;
     width: 100vw;
     position: absolute;
     top: 83vh; left: 0;
     animation: bounce 4s ease infinite;
-   
 }
 
-  @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-      40% {transform: translateY(-30px);}
-      60% {transform: translateY(-15px);}
-  }
-
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
 
 a img {
     width: 7%;
 }
-
 
 .second-nav {
     position: sticky;
     top: 0;
     background-color: white;
     box-shadow: 0px 2px 10px rgba(190, 182, 182, 0.557);
-
 }
 
 h3 {
@@ -142,7 +136,6 @@ section {
     border: 2px solid black;
     border-radius: .5rem;
     padding: 2%;
-
 }
 
 .list-item section {
@@ -152,19 +145,16 @@ section {
     border-radius: .5rem;
     padding: 2%;
     margin: 2%;
-
 }
 
 section img {
     width: 80%;
-
 }
 
 h4 {
     font-size: large;
     margin-bottom: 2%;
 }
-
 
 section button {
     border: none;
@@ -181,7 +171,6 @@ footer {
     box-shadow: 0px -2px 10px rgba(190, 182, 182, 0.557);
     margin-top: 3%;
 }
-
 
 footer article {
     padding: 1%;
@@ -201,7 +190,6 @@ footer article a:hover {
 }
 
 @media screen and (max-width:600px) {
-
     header {
         background-size:cover;
         background-position:6%;
@@ -213,7 +201,6 @@ footer article a:hover {
         display: block;
         z-index: 10;
     }
-
 
     header p {
         display: none;
@@ -253,8 +240,6 @@ footer article a:hover {
         right: 2vw;
     }
 
-
-
     .buttons a button:first-child {
         border-radius: 0.25rem 0.25rem 0 0;
     }
@@ -283,6 +268,4 @@ footer article a:hover {
     footer article img {
         width: 15%;
     }
-
 }
-    
